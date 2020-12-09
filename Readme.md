@@ -1,9 +1,9 @@
 # Stock Prediction System
 
 ## Introduction
-This Stock Predict System is based on Random Forest Classifier, which is designed to produce **BUY** or **SELL** results on S&P 500 tickers.
+This Stock Prediction System is based on Random Forest Classifier, which is designed to produce **BUY** or **SELL** results on S&P 500 tickers.
 
-You can visit [Stock Prediction System](https://stock-product-model-hue6pwqlha-uc.a.run.app/).
+You can visit [StockMind<sup>TM</sup> Prediction System](https://stock-product-model-hue6pwqlha-uc.a.run.app/).
 
 Currently, the system chooses the sector model as the default model (11 sectors/industries in the S&P 500), to build the sector model with all the tickers in the same sector.
 
