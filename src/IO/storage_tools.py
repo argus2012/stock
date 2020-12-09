@@ -22,7 +22,7 @@ def create_bucket(bucket_name):
 
 def upload_file_to_bucket(model_file_name, bucket_name):
     log = logging.getLogger()
-    log.warning(f'uploading {model_file_name} to {bucket_name}')
+    log.warning(f'Uploading {model_file_name} to {bucket_name}')
     client = storage.Client()
     b = client.get_bucket(bucket_name)
     blob = storage.Blob(model_file_name, b)
@@ -49,7 +49,7 @@ def get_model_from_bucket(model_filename, bucket_name):
         with open(f'{model_filename}', 'rb') as file_obj:
             model = joblib.load(file_obj)
     except NotFound as e:
-        log.warning(f'model {model_filename} not found\n')
+        log.warning(f'Model {model_filename} not found\n')
         model = None
 
     return model

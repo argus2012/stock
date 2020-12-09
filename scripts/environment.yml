@@ -1,4 +1,4 @@
-name: stock
+name: stock_predict
 channels:
   - conda-forge
   - defaults
@@ -18,5 +18,4 @@ dependencies:
       - google-api-python-client
       - google-auth
       - google-auth-httplib2
-
-
+      - pandas-ta
