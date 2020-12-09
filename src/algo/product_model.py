@@ -29,7 +29,7 @@ para_min_leaf = 1
 para_random_state = 1
 
 min_df_length = 60
-bucket_name = 'model_bucket_ycng_228_raymondmin_110'
+bucket_name = 'model_bucket_ycng_228_ruimin_100'
 
 
 def cal_confidence_interval(data_list):
