@@ -44,6 +44,12 @@ def detail():
     return render_template("detail.html")
 
 
+@app.route('/about', methods=['GET'])
+def about():
+    # Redirect to detail page
+    return render_template("about.html")
+
+
 @app.route('/test/<ticker>', methods=['GET'])
 def test(ticker):
     # final_predict, training_ba, test_ba, predict_ba = ticker_predict(ticker)

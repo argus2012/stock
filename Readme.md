@@ -3,6 +3,8 @@
 ## Introduction
 This Stock Predict System is based on Random Forest Classifier, which is designed to produce **BUY** or **SELL** results on S&P 500 tickers.
 
+You can visit [Stock Prediction System](https://stock-product-model-hue6pwqlha-uc.a.run.app/).
+
 Currently, the system chooses the sector model as the default model (11 sectors/industries in the S&P 500), to build the sector model with all the tickers in the same sector.
 
 * Data Iteration: 39 selected Features
@@ -19,6 +21,8 @@ For prediction, just load the model or build a new sector model to make the fina
 >Note: After comparison of different types of models, such as the One-Ticker Model, two-year data of all S&P 500 tickers and even the logistics regression, **sector model** with **Random Forest Classifier** has had the best performance. 
 
 I suppose there is some potential improvement in the accuracy of the prediction if some deeper research. I would like to continue to try and improve this prediction system as a practical project in order to further improve the skills of machine learning.
+
+[Rui (Raymond) MIN @LinkedIn](https://www.linkedin.com/in/ruimin/)
 ***
 This repository is for students from YCNG 228 course.
 The objectives of the project is to develop an end to end solution to predict stock price/evolution. 

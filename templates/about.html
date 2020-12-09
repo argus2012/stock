@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stock Prediction System</title>
-    <link href="{{url_for('static', filename='css/multiColumnTemplate.css')}}" rel="stylesheet" type="text/css">
+    <link href="static/css/multiColumnTemplate.css" rel="stylesheet" type="text/css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,18 +33,17 @@
     <section>
         <h2 class="noDisplay">Main Content</h2>
         <article class="left_article">
-            <h3>Update</h3>
-            <p>Update the real-time data manually for a better recommendation.</p>
-			<p><button id="submit_button" onClick="update_system()">Update</button></p>
-            <p style="color: #000080">{{output}}</p>
+            <h3>About Me</h3>
+            <p>Hi! My name is Rui (Raymond). I am currently pursuing studies in <a href="https://continuingstudies.mcgill.ca/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=9607925"> Professional Development Certificate in Applied Artificial Intelligence</a> at McGill University. This is the project of the course <a href="https://continuingstudies.mcgill.ca/search/publicCourseSearchDetails.do?method=load&courseId=9606333">Predictive and Classification Modelling</a>.</p>
+            <p>As a senior software engineer, I have more than 10 years of experience in software research and development based on Smart Devices with Embedded Systems, ADAS (Advanced Driver Assistance System) and Autonomous Driving systems.</p>
+            <p>I would like to keep more communication and sharing with you to learn and explore new technologies, including Data Science, Machine Learning and Artificial Intelligence. </p>
+            <p><a href="https://www.linkedin.com/in/ruimin/">Rui (Raymond) MIN @LinkedIn</a></p>
         </article>
-        <aside class="right_article"><img src="{{url_for('static', filename='images/UpdateModel.jpg')}}" alt="" width="400" height="200" class="placeholder"/> </aside>
+        <aside class="right_article"><img src="static/images/About.jpg" alt="" width="400" height="200" class="placeholder"/> </aside>
     </section>
 </div>
 </body>
 <script>
-    function update_system(){
-		location.href = '/update_system'
-	}
+
 </script>
 </html>
